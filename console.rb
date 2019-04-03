@@ -17,11 +17,15 @@ artist2.save
 album1 = Album.new({
   'title' => 'Get Behind me Satan',
   'genre' => 'Rock',
-  # 'artist_id' => "#{artist1.id}"
+  'artist_id' => "#{artist1.id}"
   })
+
+album1.save
 
 album2 = Album.new({
   'title' => 'Catch a fire',
   'genre' => 'Reggae',
-  # 'artist_id' => "#{artist2.id}"
+  'artist_id' => "#{artist2.id}"
   })
+
+album2.save
